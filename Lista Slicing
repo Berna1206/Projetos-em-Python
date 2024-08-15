@@ -1,0 +1,28 @@
+lista = list(range(1,21))
+
+nova_lista = lista[:]
+print("Cópia Lista:", nova_lista)
+
+lista_inversa = lista[::-1]
+print("\nLista Inversa:", lista_inversa)
+
+lista_pares = lista[1::2]
+print("\nLista Pares:", lista_pares)
+
+lista_pares_decrescente = lista[::-2]
+print("\nLista Pares Decrescente:", lista_pares_decrescente)
+
+lista_impares = lista[::2]
+print("\nLista Impares:", lista_impares)
+
+lista_impares_decrescente = lista[::-2]
+print("\nLista Impares Decrescente:", lista_impares_decrescente)
+
+lista_multiplo_3 = lista[2::3]
+print("\nLista Multiplos de 3:", lista_multiplo_3)
+
+lista_multiplo_5 = lista[4::5]
+print("\nLista Multiplos de 5:", lista_multiplo_5)
+
+lista_3_impar = lista[2::6]
+print("\nLista Multiplos de 3 ímpares", lista_3_impar)
