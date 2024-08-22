@@ -23,3 +23,17 @@ def delete():
         l_nome.remove(remover)
     else:
         print("O item não está na lista.")
+
+if __name__ == '__main__':
+    while True:
+        op = menu()
+        if op == "c":
+            nomes = create()
+        elif op == "r":
+            ler_lista = read()
+        elif op == "u":
+            atualizar_lista = update()
+        elif op == "d":
+            deleta = delete()
+        else:
+            break
